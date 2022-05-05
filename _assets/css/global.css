@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root{
+    --vermelho: #8E2424;
+    --azul-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --branco: #FFFFFF;
+
+    --fonte: 'Inter', sans-serif;
+
+}
+
+body{
+    color: var(--cinza-claro);
+    font-family: var(--fonte);
+    font-size: 1rem;
+}
+
+/* Header > cabeçalho */
+
+.cabecalho {
+    width: 100%;
+    
+}
+
+.cabecalho__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 1.125rem 5rem;
+    
+    height: 2.75rem;
+
+   
+
+}
+
+.cabecalho_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Botões */
+
+
+.btn {
+    gap: .75rem;
+}
+
+.btn__login {
+    height: 2.75rem;
+    background-color: var(--branco);
+    color: var(--cinza-claro);
+    border: none;
+    width: 83px;
+    
+
+
+    border-radius: .5rem;
+}
+
+.btn--cadastro {
+    width: 112px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+
+
+
