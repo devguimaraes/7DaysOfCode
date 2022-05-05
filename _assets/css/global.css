@@ -70,7 +70,7 @@ body {
 
 .btn__login {
     height: 2.75rem;
-    background-color: var(--branco);
+    background-color: #f5f5cc;
     color: var(--cinza-claro);
     border: none;
     width: 83px;
