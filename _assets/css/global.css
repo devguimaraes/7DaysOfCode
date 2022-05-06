@@ -210,3 +210,47 @@ body {
 
     background: url("/_assets/img/foto-home-lg.png");
 }
+
+
+.vagas__abertas {
+    margin: 0 20rem;
+    gap: 4rem;
+    
+}
+
+
+.vagas__abertas__container {
+    
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    padding: 0 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 32px;
+   
+}
+
+.vagas__titutos{
+   
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.lista__beneficios {
+    display: flex;
+    gap: 25px;
+    
+}
+
+
+.vagas__sub-titulos, .lista__beneficios {
+    padding-left: 2rem;
+}
