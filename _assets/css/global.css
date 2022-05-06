@@ -22,17 +22,17 @@ body {
 
 .cabecalho {
     width: 100%;
+    
+    
 
 }
 
 .cabecalho__nav {
     display: flex;
-
     align-items: flex-start;
     justify-content: space-between;
 
     margin: 1.125rem 5rem;
-
     height: 2.75rem;
 }
 
@@ -76,8 +76,6 @@ body {
     width: 83px;
     cursor: pointer;
 
-
-
     border-radius: .5rem;
 }
 
@@ -89,7 +87,7 @@ body {
 }
 
 
-/* Sobre */
+/* Sobre e Vagas */
 
 .sobre {
     display: flex;
@@ -97,13 +95,10 @@ body {
     align-items: center;
     justify-content: center;
 
-
-
     padding-top: 6rem;
     padding-bottom: 6rem;
 
     gap: 1.5rem;
-
 }
 
 .sobre_span {
@@ -127,12 +122,10 @@ body {
     letter-spacing: 0em;
     text-align: center;
 
-
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-
 }
 
 
@@ -140,36 +133,31 @@ body {
 
 .metricas {
     width: 100%;
-    gap: 4rem;
     padding-bottom: 6rem;
-
    
 }
 
 
 .metricas__container {
-
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
     gap: 4rem;
+    
     padding-left: 2rem;
     padding-right: 2rem;
-   
-
+    
+    margin-bottom: 16rem;
 }
 
 .metricas__div {
     width: 17.5rem;
-    height: 13rem;
-
+    
     gap: 1.25rem;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
     margin: 0 2rem;
 }
 
@@ -191,4 +179,34 @@ body {
     font-weight: 400;
     font-size: 1rem;
     line-height: 24px;
+}
+
+
+
+/* Vagas */
+
+.vagas {
+    width: 100%;
+    padding-bottom: 6rem;
+   
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+
+    gap: 1.5rem;
+}
+
+
+.img-vagas {
+    width: 76rem;
+    height: 25rem;
+
+    margin-top: 4rem;
+
+    background: url("/_assets/img/foto-home-lg.png");
 }
